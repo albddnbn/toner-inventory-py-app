@@ -1,0 +1,41 @@
+{
+    "code": "OK",
+    "total": 1,
+    "offset": 0,
+    "items": [
+        {
+            "ean": "0661094655219",
+            "title": "Cf214x, 14x Compatible Toner- Black",
+            "description": "For use with Hp Laserjet Enterprise 700 M725dn Mfp, M725x Mfp, M725z Mfp, M725z+ Mfp, M712dn, M712n, M712xhFor use with Hp Cf214x, 14xYield: 17500Toner Cartridge",
+            "upc": "661094655219",
+            "brand": "Premium",
+            "model": "PTCF214X",
+            "color": "Black",
+            "size": "",
+            "dimension": "",
+            "weight": "",
+            "category": "Office Supplies > General Office Supplies > Paper Products",
+            "currency": "",
+            "lowest_recorded_price": 61.19,
+            "highest_recorded_price": 61.19,
+            "images": [
+                "https://i5.walmartimages.com/asr/1e7c8d07-3b84-458e-98f6-49cc8d0e4c2a_1.3409654e133e168541637d6ddc030167.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff"
+            ],
+            "offers": [
+                {
+                    "merchant": "Wal-Mart.com",
+                    "domain": "walmart.com",
+                    "title": "Cf214x, 14x Compatible Toner- Black",
+                    "currency": "",
+                    "list_price": "",
+                    "price": 61.19,
+                    "shipping": "Free Shipping",
+                    "condition": "New",
+                    "availability": "Out of Stock",
+                    "link": "https://www.upcitemdb.com/norob/alink/?id=y2p243y2w253b4c4t2&tid=1&seq=1677156798&plt=17c5b4663c16e9adb32d82010fa88f2f",
+                    "updated_t": 1580875989
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+from PyQt5.QtWidgets import QDialog, QVBoxLayout, QHBoxLayout, QLineEdit, QPushButton
+from PyQt5.QtGui import QFont, QIcon
+import qtawesome
+
+
+class NotesDialog(QDialog):
+    def __init__(self, parent=None):
+        super(NotesDialog, self).__init__(parent)
+
+        self.setWindowTitle('Attempt Lookup')
+        self.setMinimumSize(300, 75)
+        self.setMaximumSize(300, 75)
+        # set the window icon to something having to do with looking things up
+        self.setWindowIcon(qtawesome.icon('mdi6.printer-search', color='white'))
+
+        # create the QLineEdit and OK button
+        self.text_edit = QLineEdit()
+        ok_button = QPushButton("LOOK UP")
+        ok_button.setFont(QFont('Roboto', 11))
+        ok_button.setMinimumSize(75, 30)
+        ok_button.setMaximumSize(90, 35)
+
+        # when clicked - return whatever is in the qlineedit                                                      
+        ok_button.clicked.connect(self.accept)
+
+        layout = QVBoxLayout()
+        hbox = QHBoxLayout()
+        hbox.addWidget(self.text_edit)
+        hbox.addWidget(ok_button)
+        layout.addLayout(hbox)
+
+        self.setLayout(layout)
+
+    def textValue(self):
+        return self.text_edit.text()

@@ -1,0 +1,126 @@
+/* This is the formatting specific to the Printer Inventory Application, it does not have much if any color, just spacing and other formatting */
+QMainWindow {
+	font-size: 14px;
+}
+QMenu {
+	font-size: 14px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-radius: 0px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border: 2px solid;
+	border-width: 0 0 2px 0;
+}
+QMenu::item {
+	font-size: 14px;
+}
+QMenu::icon {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+QComboBox {
+	font-size: 14px;
+	padding-left: 16px;
+	border-radius: 0px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	height: 32px;
+	border: 2px solid;
+	border-width: 0 0 2px 0;
+}
+
+QPushButton[class="wide-button"] {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+QHeaderView {
+  border: none;
+}
+
+QHeaderView::section {
+  text-transform: uppercase;
+  padding: 0 24px;
+  padding-left: 2px;
+  padding-right:2px;
+  height: 36px;
+  border-radius: 0px;
+  border-right: 1px solid #d7d7d7;
+  border-bottom: 1px solid #c7c7c7;
+  font-size:16px;
+}
+
+QHeaderView::section:horizontal {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+QToolBar QToolButton:hover {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border-radius: 2px;
+}
+QLineEdit {
+	margin-top: 0px;
+	margin-bottom:0px;
+	padding-left: 3px;
+	padding-top: 9px;
+	padding-bottom: 6px;
+	font-size: 14px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom: 1px solid #a9b1ba;
+}
+
+/* the title text at top of table window (underneath the secondary toolbar) */
+QLabel[class="table-title"] {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 6px;
+	margin-top: 8px;
+}
+QLabel[class="dash-title"] {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 6px;
+	margin-top: 8px;
+}
+/* add a :focus that makes the border-bottom of qlineedit 3px solid #color */
+
+QFrame[class="col-frame"] {
+	margin-left: 25px;
+	margin-right: 25px;
+	font-size: 14px;
+}
+/* the main title is no longer using the class below, it has font/size set inside the class with QFont */
+QLabel[class="title"] {
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 16px;
+	padding-top: 16px;
+	margin-bottom: 35px;
+	font-family: Roboto;
+}
+/* THIS IS HOW TO SET BACKGROUND OF THE RADIAL WIDGETS */
+/* QRoundProgressBar {
+	border: none;
+	background-color: #a72626;
+} */
+/* search button on search dialog */
+QPushButton[class="search-button"] {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-bottom: 6px;
+}
+QMessageBox QPushButton {
+	width: 100px;
+	height: 35px;;
+	padding: 3px;
+}

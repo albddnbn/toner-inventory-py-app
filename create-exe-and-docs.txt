@@ -1,0 +1,8 @@
+command to create the exe file:
+
+pyinstaller -n "Printer Inventory App v1.0.1" -i ./img/favicon.ico --clean --onefile --collect-submodules main.py --windowed main.py
+
+
+generate the api docs using pdoc:
+
+pdoc -d google --favicon ../../img/favicon.ico --footer-text "Printer Inventory App 1.0.1 - abuddenb - 05-08-23" --logo ../../img/stock-ink-img.png --logo-link ../guide.html --search -o A:\toner-supply-system-repo\inkvault-printer-inventory\docs\apidocs\ ./main.py  ./widgets ./utils
