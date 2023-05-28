@@ -4,6 +4,8 @@ An app built using Python 3 and PyQt5 that helps for the intake and maintenance 
 To build this, I did use some other code that I've found on Github.
 Credits:
 
+Powershell script to help set up the app: jstack03 (PrinterInventoryInstall directory / PrinterInventoryInstall.ps1 script)
+
 Most QSS Stylesheets, and general QSS knowledge: https://github.com/GTRONICK/QSS
 
 LED Indicator widgets (red and green) on the barcode scan window: https://github.com/nlamprian/pyqt5-led-indicator-widget
