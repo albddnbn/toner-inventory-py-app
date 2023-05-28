@@ -7,8 +7,7 @@ Credits:
 Most QSS Stylesheets, and general QSS knowledge: https://github.com/GTRONICK/QSS
 LED Indicator widgets (red and green) on the barcode scan window: https://github.com/nlamprian/pyqt5-led-indicator-widget
   - changed this a bit to fit into the app
-Radial Progress Bars (for toner/ink stock values): https://github.com/Prx001/QRoundProgressbar
-                                                   from original works by: [https://sourceforge.net/projects/qroundprogressbar](https://sourceforge.net/projects/qroundprogressbar/)
+Radial Progress Bars (for toner/ink stock values): https://github.com/Prx001/QRoundProgressbar, from original works by: [https://sourceforge.net/projects/qroundprogressbar](https://sourceforge.net/projects/qroundprogressbar/)
   - changed a bit
 
 Documentation/Guide can be found in the 'docs' folder.
