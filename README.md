@@ -1,7 +1,7 @@
 # toner-inventory-py-app
 An app built using Python 3 and PyQt5 that helps for the intake and maintenance of printer/toner related inventory in a business setting, like a college.
 
-To build this, I did use some other code that I've found on Github.
+To build this, I did use some other code, most of which I found here on Github. Thank you!
 Credits:
 
 Powershell script to help set up the app: jstack03 (PrinterInventoryInstall directory / PrinterInventoryInstall.ps1 script)
